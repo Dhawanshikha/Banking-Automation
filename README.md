@@ -9,9 +9,9 @@ The script imports required modules such as Tkinter for GUI, SQLite for database
 ### Create Database Tables: 
 The script attempts to create two tables in an SQLite database named "Banking.sqlite" if they don't already exist. One table stores account information, and the other stores transaction history.
 ### Define GUI Screens and Functions:
-   Main Screen:  This screen allows users to sign in, create a new account, or reset the form.\n
-   New User Screen: Users can register for a new account on this screen.\n
-   Forget Password Screen: Users can retrieve their password by providing account details.\n
-   Login Screen: After successful login, users can access various banking functionalities like viewing account details, updating profile, depositing, withdrawing, transferring funds, and viewing transaction history.\n
+      Main Screen:  This screen allows users to sign in, create a new account, or reset the form.
+      New User Screen: Users can register for a new account on this screen.
+      Forget Password Screen: Users can retrieve their password by providing account details.
+      Login Screen: After successful login, users can access various banking functionalities like viewing account details, updating profile, depositing, withdrawing, transferring funds, and viewing transaction history.
 ### Main Loop: 
 The win.mainloop() function starts the GUI application, ensuring it stays responsive to user interactions.
